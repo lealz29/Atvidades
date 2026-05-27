@@ -15,13 +15,13 @@ public class AumentoSalario {
 
         switch (plano) {
             case "A":
-                novoSalario = salarioAtual * 1.10; // 10% de aumento
+                novoSalario = salarioAtual * 1.10; 
                 break;
             case "B":
-                novoSalario = salarioAtual * 1.15; // 15% de aumento
+                novoSalario = salarioAtual * 1.15; 
                 break;
             case "C":
-                novoSalario = salarioAtual * 1.20; // 20% de aumento
+                novoSalario = salarioAtual * 1.20; 
                 break;
             default:
                 System.out.println("Plano inválido!");
