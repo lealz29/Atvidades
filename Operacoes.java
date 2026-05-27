@@ -17,7 +17,7 @@ public class Operacoes {
         System.out.println("P - Produto entre os números");
         System.out.println("D - Divisão do primeiro pelo segundo");
         
-        // .next() lê a string e .toUpperCase() evita o erro de letra minúscula
+        // .next() lê a string e .toUpperCase() evita o erro de letra minúscula - *Importnte
         String opcao = entrada.next().toUpperCase();
 
         switch (opcao) {
@@ -27,7 +27,7 @@ public class Operacoes {
                 break;
 
             case "S":
-                // Lógica para saber quem é o maior e subtrair o menor
+               
                 if (n1 > n2) {
                     System.out.println("Diferença: " + (n1 - n2));
                 } else {
@@ -40,7 +40,7 @@ public class Operacoes {
                 break;
 
             case "D":
-                // Verificação importante: não existe divisão por zero!
+                
                 if (n2 != 0) {
                     System.out.println("Divisão: " + (n1 / n2));
                 } else {
